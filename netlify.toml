@@ -1,0 +1,7 @@
+[functions]
+  node_bundler = "esbuild"
+
+[[schedule]]
+  cron = "0 8 1 * *"
+  path = "/.netlify/functions/ping-newsletter"
+  timezone = "Europe/Copenhagen"
